@@ -1,0 +1,32 @@
+[project]
+name = 'pf_animation_eqs'
+version = '0.1.0'
+description = 'Plot Phantom Forces animation easing curves in a jupyter notebook.'
+readme = 'README.md'
+requires-python = '>=3.11'
+dependencies = [
+    'jupyter>=1.1.1',
+    'matplotlib>=3.10.0',
+    'numpy>=2.2.2',
+]
+
+[tool.pylint.main]
+max-line-length = 125
+disable = [
+    'basic',
+    'W1203',
+]
+
+[tool.black]
+line-length = 125
+skip-string-normalization = true
+
+[tool.isort]
+profile = 'black'
+combine_as_imports = true
+combine_star = true
+line_length = 125
+
+[tool.ruff]
+line-length = 125
+format.quote-style = 'single'
