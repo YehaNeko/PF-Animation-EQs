@@ -2,6 +2,8 @@
 
 Plot Phantom Forces animation easing curves in a Jupyter Notebook.
 
+<img src="preview.png" width=70%, title="Plot preview" alt="Plot preview">
+
 ## Development Environment
 
 To get started with this project, follow the steps below:
